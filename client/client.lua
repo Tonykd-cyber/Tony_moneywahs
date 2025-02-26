@@ -54,7 +54,7 @@ AddEventHandler("Tonykd:start", function()
 						if alert == 'confirm' then
 							if lib.progressBar({
 								label = locale('A6'),
-								duration = 1000,
+								duration = 30000,
 								position = 'bottom',
 								useWhileDead = false,
 								canCancel = false,
