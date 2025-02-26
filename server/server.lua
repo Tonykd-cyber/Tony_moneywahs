@@ -14,12 +14,11 @@ RegisterNetEvent('Tonykd:remove', function ()
     local src = source
     local blackmoneybox = ox_inventory:Search(source, 1, 'blackmoney_box')
     for k, v in pairs(blackmoneybox) do
- 
         blackmoneybox = v
         break
     end
     print(blackmoneybox.metadata.description)
-    ox_inventory:AddItem(src, 'money', blackmoneybox.metadata.description)
+    ox_inventory:AddItem(src, 'money', blackmoneybox.metadata.description * Config.Proportional)
     ox_inventory:RemoveItem(src, 'blackmoney_box', 1)
 end)  
 
