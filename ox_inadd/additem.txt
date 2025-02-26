@@ -1,0 +1,6 @@
+	['blackmoney_box'] = {
+		label = '黑钱箱子',
+		stack = false,
+		close = false,
+		weight = 500
+	},
