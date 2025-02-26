@@ -5,6 +5,8 @@ Config.policeCount = 1
 
 Config.LocationColour = 2
 
+Config.Proportional = 0.8
+
 Config.Ped = {
     `ig_claypain`,
 }
